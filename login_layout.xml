@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text=" "
+        />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="录入新运单"
+        />
+    <Button
+        android:id="@+id/localButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="本地查询运单"
+        />
+    <Button
+        android:id="@+id/xmlButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="查询公司XML运单"
+        />
+    <Button
+        android:id="@+id/jsonButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="查询公司JSon运单"
+        />
+    <Button
+        android:id="@+id/switchButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="切换用户"
+        />
+    <Button
+        android:id="@+id/outButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="退出系统"
+        />
+
+
+</LinearLayout>
